@@ -1,6 +1,6 @@
 name: upgrade
-version: '6.1'
-display_version: 'dev'
+version: 'dev'
+#display_version: 'dev'
 prerelease: true
 title: Обновление системы
 asciidoc:
