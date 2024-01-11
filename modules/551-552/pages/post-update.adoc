@@ -54,15 +54,5 @@ protected override string GetLibraryDefinition()
 +
 См. подробнее в руководстве разработчика, раздел "xref:programmer:samples:solution/snap-in/new-snap-in.adoc[]").
 
-// tag::console[]
-[#console]
-== Установка Консоли управления {dv}
-
-Чтобы настроить модуль _Служба {ws}_, установите модуль "{mc}" по инструкции в разделе установки модуля: "xref:5.5.1@mgmtconsole:admin:install.adoc[]".
-
-{mc} позволяет настроить обязательный модуль _Служба {ws}_. Без данной настройки:
-
-* Не будут создаваться и отправляться группы заданий.
-* Не будут отправляться почтовые уведомления исполнителям.
-// end::console[]
+include::partial$excerpts.adoc[tags=console]
 //end::noattr[]
