@@ -1,5 +1,11 @@
-include::551-552:page$update-no-overwrite.adoc[tags=part1]
-. Обновите БД xref:dev@platform:console:db-update.adoc[стандартным образом].
+= Обновление базы данных {dv} без перезаписи стандартных настроек
+
+. Измените в редакторе реестра Windows значение параметра `{hklm-dv}\Platform\Console\WizardMode` на `0`.
+. Откройте _{cns}_.
+. Перейдите в раздел настроек menu:Настройки сервера[Базы данных].
+. Нажмите кнопку *Мастер баз данных*. Будет открыто окно _Мастер БД {dv}_.
+. Выберите обновляемую БД. Переключите режим в значение *Обновить выбранную в списке базу данных*.
+. Обновите БД xref:6.1@platform:console:db-update.adoc[стандартным образом].
 // . В таблице *dvtable_\{043226B8-E980-40B4-8EDA-F1BF5A3C38D9}* задайте поле `CardPackageInstallDisabled`.
 
 ****
@@ -11,7 +17,7 @@ include::551-552:page$update-no-overwrite.adoc[tags=part1]
 +
 // suppress inspection "AsciiDocLinkResolve"
 .Старое и новое название хранимой процедуры
-image::551-552:dvad.png[Старое и новое название хранимой процедуры]
+image::dvad.png[Старое и новое название хранимой процедуры]
 +
 Если требуется сохранить стандартных настроек без изменений, в конструкторе ролей вручную замените процедуру `dvbo_Operand_Reconcile_TasktreeEmployees` на `dvad_Operand_Reconcile_TasktreeEmployees`.
 +
