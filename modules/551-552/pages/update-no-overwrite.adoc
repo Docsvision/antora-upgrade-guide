@@ -11,6 +11,8 @@
 +
 На шаге выбора модулей, данные которых будут загружены, снимите выбор с элемента `*{dm} и {ad}*`.
 +
+include::platform:console:partial$excerpts.adoc[tags=do-not-skip]
++
 // tag::part2[]
 .Загрузка библиотек карточек
 image::551-552:update-applications.png[Загрузка библиотек карточек]
