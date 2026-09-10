@@ -21,6 +21,7 @@
 * Удалён параметр для Сервиса внешнего API, т.к. сервис был упразднён и его установка не требуется.
 * Добавлена секция `Kestrel` с настройками, позволяющими
 include::6.2@mgmtconsole:admin:config.adoc[tags=kestrel]
+* [[logging]]Обновлена секция NLog и параметры журналирования, см. подробнее "xref:6.2@mgmtconsole:user:logs.adoc[]".
 +
 .Фрагмент конфигурационного файла `appsettings.json`:
 [source,json]
